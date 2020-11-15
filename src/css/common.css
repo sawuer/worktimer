@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #151520;
+}
+.app {
+  padding: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.app-timers {
+  
+}
+.app-timer {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #666;
+  padding: 10px;
+}
+.app-timer:hover {
+  background: rgba(255,255,255,.05);
+}
+.app-timer--isrunning, .app-timer--isrunning:hover {
+  background: rgba(255,255,255,.1);
+}
+.app-addinput {
+  height: 44px;
+}
+button {
+  color: #fff;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  margin-right: 10px;
+  outline: none;
+}
+input {
+  font-size: 20px;
+  background: rgba(0,0,0,0.3);
+  border: none;
+  height: 30px;
+  color: #fff;
+  padding: 0 10px;
+  outline: none;
+}
+button:hover {
+  background: rgba(255,255,255,.1);
+}
+.app-timer_name {
+  width: 230px;
+  padding: 0 10px;
+}
+.app-timer_time {
+  width: 130px;
+  flex-grow: 1;
+  font-weight: bold;
+}
+.app-timer_delete {
+}
+.app-timer_run {
+}
+.app-updatetime {
+  display: block;
+  position: absolute;
+  top: 50%;
+  width: 266px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.6);
+  padding: 20px;
+}
+.app-timeboxes .app-timebox {
+  width: 50px;
+  margin: 0 7px;
+  text-align: center;
+}
